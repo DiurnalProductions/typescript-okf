@@ -1,8 +1,0 @@
-{
-  "id": "typescript-okf",
-  "name": "TypeScript Knowledge Pack",
-  "version": "0.1",
-  "description": "OKF knowledge base for TypeScript (type system, inference, generics, structural typing, and JS interop)",
-  "entry": "index.md",
-  "tags": ["typescript", "ts", "javascript", "typing", "programming"]
-}

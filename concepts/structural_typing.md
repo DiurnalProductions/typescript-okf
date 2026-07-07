@@ -1,17 +1,16 @@
 ---
-id: typescript.structural_typing
-type: concept
+type: Concept
 title: Structural Typing
-description: TypeScript's core compatibility model — types match by shape, not by declared name.
+description: "TypeScript's core compatibility model — types match by shape, not by declared name."
 tags: [typescript, structural, compatibility, duck-typing]
 prerequisites:
-  - typescript.interfaces
-  - typescript.type_aliases
+  - concepts/interfaces
+  - concepts/type_aliases
 related:
-  - typescript.type_compatibility
-  - typescript.duck_typing
-  - typescript.excess_property_checks
-resource: https://www.typescriptlang.org/docs/handbook/type-compatibility.html
+  - concepts/type_compatibility
+  - concepts/duck_typing
+  - concepts/excess_property_checks
+resource: "https://www.typescriptlang.org/docs/handbook/type-compatibility.html"
 timestamp: 2026-01-01
 ---
 

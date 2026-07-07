@@ -1,21 +1,20 @@
 ---
-id: typescript.type_erasure
-type: concept
+type: Concept
 title: Type Erasure
 description: The process by which all TypeScript type information is removed during compilation.
 tags: [typescript, erasure, compile-time, emit]
 prerequisites:
-  - typescript.javascript_interop
+  - concepts/javascript_interop
 related:
-  - typescript.runtime_vs_compile_time
-  - typescript.ambient_types
-resource: https://www.typescriptlang.org/docs/handbook/2/classes.html#types-at-runtime
-timestamp: 2026-01-01
+  - concepts/runtime_vs_compile_time
+  - concepts/ambient_types
+resource: "https://www.typescriptlang.org/docs/handbook/2/classes.html#types-at-runtime"
+timestamp: 2026-07-06
 ---
 
 ## Summary
 
-Type erasure means TypeScript types, interfaces, type aliases, generic parameters, and most annotations **do not exist** in emitted JavaScript. The compiler deletes them. What may remain: class syntax (as JS classes), enums (unless `const enum` inlined), namespaces merged with values, and decorators/metadata if configured — but **type expressions themselves are always erased**.
+Type erasure means TypeScript types, interfaces, type aliases, generic parameters, and most annotations **do not exist** in emitted JavaScript. The compiler deletes them. (This holds across compilers: TypeScript 6.x's JS implementation and the Go-native port — the basis for TypeScript 7, roughly 10× faster — share the erasure model.) What may remain: class syntax (as JS classes), enums (unless `const enum` inlined), namespaces merged with values, and decorators/metadata if configured — but **type expressions themselves are always erased**.
 
 ## Mental model
 

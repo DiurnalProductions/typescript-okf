@@ -1,16 +1,15 @@
 ---
-id: typescript.ambient_types
-type: concept
+type: Concept
 title: Ambient Types
 description: Declaration-only type definitions that describe JavaScript values without emitting implementation code.
 tags: [typescript, declarations, ambient, dts]
 prerequisites:
-  - typescript.type_erasure
-  - typescript.javascript_interop
+  - concepts/type_erasure
+  - concepts/javascript_interop
 related:
-  - typescript.declaration_merging
-  - typescript.module_augmentation
-resource: https://www.typescriptlang.org/docs/handbook/declaration-files/by-example.html
+  - concepts/declaration_merging
+  - concepts/module_augmentation
+resource: "https://www.typescriptlang.org/docs/handbook/declaration-files/by-example.html"
 timestamp: 2026-01-01
 ---
 

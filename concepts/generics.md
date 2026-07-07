@@ -1,17 +1,16 @@
 ---
-id: typescript.generics
-type: concept
+type: Concept
 title: Generics
-description: Type parameters that make functions, classes, and types reusable while preserving precise type relationships.
+description: "Type parameters that make functions, classes, and types reusable while preserving precise type relationships."
 tags: [typescript, generics, type-parameters]
 prerequisites:
-  - typescript.function_typing
-  - typescript.type_inference
+  - concepts/function_typing
+  - concepts/type_inference
 related:
-  - typescript.generic_constraints
-  - typescript.default_generics
-  - typescript.conditional_types
-resource: https://www.typescriptlang.org/docs/handbook/2/generics.html
+  - concepts/generic_constraints
+  - concepts/default_generics
+  - concepts/conditional_types
+resource: "https://www.typescriptlang.org/docs/handbook/2/generics.html"
 timestamp: 2026-01-01
 ---
 

@@ -1,17 +1,16 @@
 ---
-id: typescript.interfaces
-type: concept
+type: Concept
 title: Interfaces
 description: Named object shape contracts that support extension and declaration merging.
 tags: [typescript, objects, interfaces, structural]
 prerequisites:
-  - typescript.basic_types
-  - typescript.type_annotations
+  - concepts/basic_types
+  - concepts/type_annotations
 related:
-  - typescript.type_aliases
-  - typescript.structural_typing
-  - typescript.declaration_merging
-resource: https://www.typescriptlang.org/docs/handbook/2/objects.html
+  - concepts/type_aliases
+  - concepts/structural_typing
+  - concepts/declaration_merging
+resource: "https://www.typescriptlang.org/docs/handbook/2/objects.html"
 timestamp: 2026-01-01
 ---
 

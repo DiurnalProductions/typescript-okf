@@ -1,17 +1,16 @@
 ---
-id: typescript.conditional_types
-type: concept
+type: Concept
 title: Conditional Types
 description: Type-level if-then-else expressions that select types based on assignability tests.
 tags: [typescript, advanced, conditional-types]
 prerequisites:
-  - typescript.generics
-  - typescript.unions
+  - concepts/generics
+  - concepts/unions
 related:
-  - typescript.infer_keyword
-  - typescript.mapped_types
-  - typescript.utility_types
-resource: https://www.typescriptlang.org/docs/handbook/2/conditional-types.html
+  - concepts/infer_keyword
+  - concepts/mapped_types
+  - concepts/utility_types
+resource: "https://www.typescriptlang.org/docs/handbook/2/conditional-types.html"
 timestamp: 2026-01-01
 ---
 

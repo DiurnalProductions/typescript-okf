@@ -1,15 +1,14 @@
 ---
-id: typescript.infer_keyword
-type: concept
+type: Concept
 title: The infer Keyword
 description: Declaring type variables inside conditional types to extract and name inferred types.
 tags: [typescript, advanced, infer, conditional-types]
 prerequisites:
-  - typescript.conditional_types
+  - concepts/conditional_types
 related:
-  - typescript.utility_types
-  - typescript.generics
-resource: https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#inferring-within-conditional-types
+  - concepts/utility_types
+  - concepts/generics
+resource: "https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#inferring-within-conditional-types"
 timestamp: 2026-01-01
 ---
 

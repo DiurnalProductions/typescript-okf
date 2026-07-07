@@ -1,17 +1,16 @@
 ---
-id: typescript.type_narrowing
-type: concept
+type: Concept
 title: Type Narrowing
 description: Control-flow-based refinement of types from wider unions or unknown to specific members.
 tags: [typescript, narrowing, control-flow, unions]
 prerequisites:
-  - typescript.unions
-  - typescript.type_inference
+  - concepts/unions
+  - concepts/type_inference
 related:
-  - typescript.any_unknown_never
-  - typescript.function_typing
-  - typescript.conditional_types
-resource: https://www.typescriptlang.org/docs/handbook/2/narrowing.html
+  - concepts/any_unknown_never
+  - concepts/function_typing
+  - concepts/conditional_types
+resource: "https://www.typescriptlang.org/docs/handbook/2/narrowing.html"
 timestamp: 2026-01-01
 ---
 

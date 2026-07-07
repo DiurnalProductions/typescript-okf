@@ -1,3 +1,12 @@
+---
+okf_version: "0.1"
+id: typescript-okf
+name: TypeScript Knowledge Pack
+version: "0.1"
+description: "OKF knowledge base for TypeScript (type system, inference, generics, structural typing, and JS interop)"
+tags: [typescript, ts, javascript, typing, programming]
+---
+
 # TypeScript Knowledge Pack
 
 A graph-based learning module for modern TypeScript under **strict mode**. Every concept in this bundle describes **compile-time type behavior** — not runtime execution.

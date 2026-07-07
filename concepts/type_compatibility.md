@@ -1,16 +1,15 @@
 ---
-id: typescript.type_compatibility
-type: concept
+type: Concept
 title: Type Compatibility
 description: Assignability rules determining when one type may be used where another is expected.
 tags: [typescript, compatibility, assignability, structural]
 prerequisites:
-  - typescript.structural_typing
+  - concepts/structural_typing
 related:
-  - typescript.duck_typing
-  - typescript.excess_property_checks
-  - typescript.javascript_interop
-resource: https://www.typescriptlang.org/docs/handbook/type-compatibility.html
+  - concepts/duck_typing
+  - concepts/excess_property_checks
+  - concepts/javascript_interop
+resource: "https://www.typescriptlang.org/docs/handbook/type-compatibility.html"
 timestamp: 2026-01-01
 ---
 

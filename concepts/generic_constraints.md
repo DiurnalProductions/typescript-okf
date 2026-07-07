@@ -1,16 +1,15 @@
 ---
-id: typescript.generic_constraints
-type: concept
+type: Concept
 title: Generic Constraints
 description: Bounding type parameters with extends to require capabilities or shapes before use.
 tags: [typescript, generics, constraints, extends]
 prerequisites:
-  - typescript.generics
+  - concepts/generics
 related:
-  - typescript.default_generics
-  - typescript.conditional_types
-  - typescript.mapped_types
-resource: https://www.typescriptlang.org/docs/handbook/2/generics.html#generic-constraints
+  - concepts/default_generics
+  - concepts/conditional_types
+  - concepts/mapped_types
+resource: "https://www.typescriptlang.org/docs/handbook/2/generics.html#generic-constraints"
 timestamp: 2026-01-01
 ---
 

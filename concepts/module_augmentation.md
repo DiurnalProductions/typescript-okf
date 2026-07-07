@@ -1,16 +1,15 @@
 ---
-id: typescript.module_augmentation
-type: concept
+type: Concept
 title: Module Augmentation
 description: Extending types exported by an existing module without modifying its source code.
 tags: [typescript, modules, augmentation, declarations]
 prerequisites:
-  - typescript.declaration_merging
-  - typescript.ambient_types
+  - concepts/declaration_merging
+  - concepts/ambient_types
 related:
-  - typescript.javascript_interop
-  - typescript.declaration_merging
-resource: https://www.typescriptlang.org/docs/handbook/declaration-merging.html#module-augmentation
+  - concepts/javascript_interop
+  - concepts/declaration_merging
+resource: "https://www.typescriptlang.org/docs/handbook/declaration-merging.html#module-augmentation"
 timestamp: 2026-01-01
 ---
 

@@ -1,17 +1,16 @@
 ---
-id: typescript.utility_types
-type: concept
+type: Concept
 title: Utility Types
-description: Built-in type transformations in TypeScript's standard library for common type manipulations.
+description: "Built-in type transformations in TypeScript's standard library for common type manipulations."
 tags: [typescript, advanced, utility-types, std-lib]
 prerequisites:
-  - typescript.mapped_types
-  - typescript.conditional_types
-  - typescript.infer_keyword
+  - concepts/mapped_types
+  - concepts/conditional_types
+  - concepts/infer_keyword
 related:
-  - typescript.default_generics
-  - typescript.generic_constraints
-resource: https://www.typescriptlang.org/docs/handbook/utility-types.html
+  - concepts/default_generics
+  - concepts/generic_constraints
+resource: "https://www.typescriptlang.org/docs/handbook/utility-types.html"
 timestamp: 2026-01-01
 ---
 

@@ -1,17 +1,16 @@
 ---
-id: typescript.structural_mismatch_risks
-type: concept
+type: Concept
 title: Structural Mismatch Risks
 description: Failure modes when compile-time structural types do not match actual runtime JavaScript values.
 tags: [typescript, interop, safety, structural]
 prerequisites:
-  - typescript.javascript_interop
-  - typescript.runtime_vs_compile_time
-  - typescript.excess_property_checks
+  - concepts/javascript_interop
+  - concepts/runtime_vs_compile_time
+  - concepts/excess_property_checks
 related:
-  - typescript.duck_typing
-  - typescript.any_unknown_never
-resource: https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html
+  - concepts/duck_typing
+  - concepts/any_unknown_never
+resource: "https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html"
 timestamp: 2026-01-01
 ---
 

@@ -1,17 +1,16 @@
 ---
-id: typescript.function_typing
-type: concept
+type: Concept
 title: Function Typing
-description: Typing callable values including parameters, return types, overloads, and contextual signatures.
+description: "Typing callable values including parameters, return types, overloads, and contextual signatures."
 tags: [typescript, functions, signatures]
 prerequisites:
-  - typescript.type_inference
-  - typescript.unions
-  - typescript.type_narrowing
+  - concepts/type_inference
+  - concepts/unions
+  - concepts/type_narrowing
 related:
-  - typescript.generics
-  - typescript.generic_constraints
-resource: https://www.typescriptlang.org/docs/handbook/2/functions.html
+  - concepts/generics
+  - concepts/generic_constraints
+resource: "https://www.typescriptlang.org/docs/handbook/2/functions.html"
 timestamp: 2026-01-01
 ---
 

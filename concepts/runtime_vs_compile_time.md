@@ -1,16 +1,15 @@
 ---
-id: typescript.runtime_vs_compile_time
-type: concept
+type: Concept
 title: Runtime vs Compile-Time
 description: Separating what TypeScript checks before execution from what JavaScript actually does at runtime.
 tags: [typescript, runtime, compile-time, erasure]
 prerequisites:
-  - typescript.type_erasure
+  - concepts/type_erasure
 related:
-  - typescript.structural_mismatch_risks
-  - typescript.any_unknown_never
-  - typescript.javascript_interop
-resource: https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html
+  - concepts/structural_mismatch_risks
+  - concepts/any_unknown_never
+  - concepts/javascript_interop
+resource: "https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html"
 timestamp: 2026-01-01
 ---
 

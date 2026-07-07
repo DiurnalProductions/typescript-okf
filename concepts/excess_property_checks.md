@@ -1,16 +1,15 @@
 ---
-id: typescript.excess_property_checks
-type: concept
+type: Concept
 title: Excess Property Checks
 description: Stricter validation when assigning fresh object literals to target types with fewer known properties.
 tags: [typescript, structural, literals, strict]
 prerequisites:
-  - typescript.structural_typing
-  - typescript.type_compatibility
+  - concepts/structural_typing
+  - concepts/type_compatibility
 related:
-  - typescript.structural_mismatch_risks
-  - typescript.type_narrowing
-resource: https://www.typescriptlang.org/docs/handbook/2/objects.html#excess-property-checks
+  - concepts/structural_mismatch_risks
+  - concepts/type_narrowing
+resource: "https://www.typescriptlang.org/docs/handbook/2/objects.html#excess-property-checks"
 timestamp: 2026-01-01
 ---
 

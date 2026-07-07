@@ -1,17 +1,16 @@
 ---
-id: typescript.javascript_interop
-type: concept
+type: Concept
 title: JavaScript Interop
-description: Typing JavaScript libraries, dynamic values, and mixed TS/JS codebases without runtime type support.
+description: "Typing JavaScript libraries, dynamic values, and mixed TS/JS codebases without runtime type support."
 tags: [typescript, interop, javascript, js]
 prerequisites:
-  - typescript.structural_typing
-  - typescript.type_compatibility
+  - concepts/structural_typing
+  - concepts/type_compatibility
 related:
-  - typescript.type_erasure
-  - typescript.structural_mismatch_risks
-  - typescript.ambient_types
-resource: https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html
+  - concepts/type_erasure
+  - concepts/structural_mismatch_risks
+  - concepts/ambient_types
+resource: "https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html"
 timestamp: 2026-01-01
 ---
 

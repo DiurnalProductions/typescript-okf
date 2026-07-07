@@ -1,16 +1,15 @@
 ---
-id: typescript.intersections
-type: concept
+type: Concept
 title: Intersection Types
-description: Types that combine multiple type members into one requirement, written with the intersection operator.
+description: "Types that combine multiple type members into one requirement, written with the intersection operator."
 tags: [typescript, types, intersections]
 prerequisites:
-  - typescript.unions
-  - typescript.type_aliases
+  - concepts/unions
+  - concepts/type_aliases
 related:
-  - typescript.interfaces
-  - typescript.mapped_types
-resource: https://www.typescriptlang.org/docs/handbook/2/objects.html#intersection-types
+  - concepts/interfaces
+  - concepts/mapped_types
+resource: "https://www.typescriptlang.org/docs/handbook/2/objects.html#intersection-types"
 timestamp: 2026-01-01
 ---
 

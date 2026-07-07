@@ -1,16 +1,15 @@
 ---
-id: typescript.index_signatures
-type: concept
+type: Concept
 title: Index Signatures
-description: Typing objects with dynamic string, number, or symbol keys alongside known properties.
+description: "Typing objects with dynamic string, number, or symbol keys alongside known properties."
 tags: [typescript, objects, index-signatures]
 prerequisites:
-  - typescript.interfaces
-  - typescript.type_aliases
+  - concepts/interfaces
+  - concepts/type_aliases
 related:
-  - typescript.mapped_types
-  - typescript.structural_typing
-resource: https://www.typescriptlang.org/docs/handbook/2/objects.html#index-signatures
+  - concepts/mapped_types
+  - concepts/structural_typing
+resource: "https://www.typescriptlang.org/docs/handbook/2/objects.html#index-signatures"
 timestamp: 2026-01-01
 ---
 

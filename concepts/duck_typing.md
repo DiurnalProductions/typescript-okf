@@ -1,16 +1,15 @@
 ---
-id: typescript.duck_typing
-type: concept
+type: Concept
 title: Duck Typing in TypeScript
-description: How JavaScript's duck-typing philosophy is formalized as static structural checking.
+description: "How JavaScript's duck-typing philosophy is formalized as static structural checking."
 tags: [typescript, duck-typing, structural, javascript]
 prerequisites:
-  - typescript.structural_typing
-  - typescript.type_compatibility
+  - concepts/structural_typing
+  - concepts/type_compatibility
 related:
-  - typescript.javascript_interop
-  - typescript.structural_mismatch_risks
-resource: https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes-func.html
+  - concepts/javascript_interop
+  - concepts/structural_mismatch_risks
+resource: "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes-func.html"
 timestamp: 2026-01-01
 ---
 

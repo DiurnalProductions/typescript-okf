@@ -1,18 +1,17 @@
 ---
-id: typescript.type_inference
-type: concept
+type: Concept
 title: Type Inference
-description: How TypeScript deduces types from initialization, context, and control flow without explicit annotations.
+description: "How TypeScript deduces types from initialization, context, and control flow without explicit annotations."
 tags: [typescript, fundamentals, inference]
 prerequisites:
-  - typescript.basic_types
-  - typescript.type_annotations
+  - concepts/basic_types
+  - concepts/type_annotations
 related:
-  - typescript.literal_types
-  - typescript.unions
-  - typescript.type_narrowing
-  - typescript.generics
-resource: https://www.typescriptlang.org/docs/handbook/type-inference.html
+  - concepts/literal_types
+  - concepts/unions
+  - concepts/type_narrowing
+  - concepts/generics
+resource: "https://www.typescriptlang.org/docs/handbook/type-inference.html"
 timestamp: 2026-01-01
 ---
 

@@ -1,16 +1,15 @@
 ---
-id: typescript.mapped_types
-type: concept
+type: Concept
 title: Mapped Types
 description: Transforming object types by iterating keys with the in keyof pattern.
 tags: [typescript, advanced, mapped-types]
 prerequisites:
-  - typescript.generics
-  - typescript.index_signatures
+  - concepts/generics
+  - concepts/index_signatures
 related:
-  - typescript.conditional_types
-  - typescript.utility_types
-resource: https://www.typescriptlang.org/docs/handbook/2/mapped-types.html
+  - concepts/conditional_types
+  - concepts/utility_types
+resource: "https://www.typescriptlang.org/docs/handbook/2/mapped-types.html"
 timestamp: 2026-01-01
 ---
 

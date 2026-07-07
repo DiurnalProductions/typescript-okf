@@ -1,17 +1,16 @@
 ---
-id: typescript.any_unknown_never
-type: concept
-title: any, unknown, and never
-description: The top type, safe top type, and bottom type — boundaries of TypeScript's type lattice.
+type: Concept
+title: "any, unknown, and never"
+description: "The top type, safe top type, and bottom type — boundaries of TypeScript's type lattice."
 tags: [typescript, fundamentals, any, unknown, never]
 prerequisites:
-  - typescript.basic_types
-  - typescript.type_annotations
+  - concepts/basic_types
+  - concepts/type_annotations
 related:
-  - typescript.type_narrowing
-  - typescript.runtime_vs_compile_time
-  - typescript.javascript_interop
-resource: https://www.typescriptlang.org/docs/handbook/2/functions.html#unknown
+  - concepts/type_narrowing
+  - concepts/runtime_vs_compile_time
+  - concepts/javascript_interop
+resource: "https://www.typescriptlang.org/docs/handbook/2/functions.html#unknown"
 timestamp: 2026-01-01
 ---
 

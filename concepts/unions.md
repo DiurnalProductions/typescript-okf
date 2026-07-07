@@ -1,17 +1,16 @@
 ---
-id: typescript.unions
-type: concept
+type: Concept
 title: Union Types
-description: Types representing values that may be one of several alternatives, written with the union operator.
+description: "Types representing values that may be one of several alternatives, written with the union operator."
 tags: [typescript, types, unions]
 prerequisites:
-  - typescript.literal_types
-  - typescript.type_inference
+  - concepts/literal_types
+  - concepts/type_inference
 related:
-  - typescript.type_narrowing
-  - typescript.intersections
-  - typescript.conditional_types
-resource: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types
+  - concepts/type_narrowing
+  - concepts/intersections
+  - concepts/conditional_types
+resource: "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types"
 timestamp: 2026-01-01
 ---
 

@@ -1,16 +1,15 @@
 ---
-id: typescript.declaration_merging
-type: concept
+type: Concept
 title: Declaration Merging
 description: Combining multiple declarations with the same name into a single type or value entity.
 tags: [typescript, declarations, merging, modules]
 prerequisites:
-  - typescript.interfaces
-  - typescript.ambient_types
+  - concepts/interfaces
+  - concepts/ambient_types
 related:
-  - typescript.module_augmentation
-  - typescript.ambient_types
-resource: https://www.typescriptlang.org/docs/handbook/declaration-merging.html
+  - concepts/module_augmentation
+  - concepts/ambient_types
+resource: "https://www.typescriptlang.org/docs/handbook/declaration-merging.html"
 timestamp: 2026-01-01
 ---
 

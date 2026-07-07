@@ -1,15 +1,13 @@
 ---
-id: typescript.basic_types
-type: concept
+type: Concept
 title: Basic Types
-description: Primitive and foundational types in TypeScript's static type system under strict mode.
+description: "Primitive and foundational types in TypeScript's static type system under strict mode."
 tags: [typescript, fundamentals, types, primitives]
-prerequisites: []
 related:
-  - typescript.type_annotations
-  - typescript.type_inference
-  - typescript.literal_types
-resource: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+  - concepts/type_annotations
+  - concepts/type_inference
+  - concepts/literal_types
+resource: "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
 timestamp: 2026-01-01
 ---
 

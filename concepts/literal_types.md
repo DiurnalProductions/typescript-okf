@@ -1,16 +1,15 @@
 ---
-id: typescript.literal_types
-type: concept
+type: Concept
 title: Literal Types
 description: Types that represent exact primitive values rather than broad primitives.
 tags: [typescript, types, literals, inference]
 prerequisites:
-  - typescript.basic_types
-  - typescript.type_inference
+  - concepts/basic_types
+  - concepts/type_inference
 related:
-  - typescript.unions
-  - typescript.type_narrowing
-resource: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types
+  - concepts/unions
+  - concepts/type_narrowing
+resource: "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types"
 timestamp: 2026-01-01
 ---
 

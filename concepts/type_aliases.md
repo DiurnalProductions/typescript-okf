@@ -1,16 +1,15 @@
 ---
-id: typescript.type_aliases
-type: concept
+type: Concept
 title: Type Aliases
-description: Named definitions for any type expression including unions, intersections, and primitives.
+description: "Named definitions for any type expression including unions, intersections, and primitives."
 tags: [typescript, types, aliases]
 prerequisites:
-  - typescript.interfaces
+  - concepts/interfaces
 related:
-  - typescript.intersections
-  - typescript.unions
-  - typescript.structural_typing
-resource: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases
+  - concepts/intersections
+  - concepts/unions
+  - concepts/structural_typing
+resource: "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases"
 timestamp: 2026-01-01
 ---
 

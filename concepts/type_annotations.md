@@ -1,17 +1,16 @@
 ---
-id: typescript.type_annotations
-type: concept
+type: Concept
 title: Type Annotations
-description: Explicit type syntax on variables, parameters, properties, and return positions.
+description: "Explicit type syntax on variables, parameters, properties, and return positions."
 tags: [typescript, fundamentals, syntax, annotations]
 prerequisites:
-  - typescript.basic_types
+  - concepts/basic_types
 related:
-  - typescript.type_inference
-  - typescript.function_typing
-  - typescript.interfaces
-resource: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-annotations-on-variables
-timestamp: 2026-01-01
+  - concepts/type_inference
+  - concepts/function_typing
+  - concepts/interfaces
+resource: "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-annotations-on-variables"
+timestamp: 2026-07-06
 ---
 
 ## Summary
@@ -20,7 +19,7 @@ Type annotations are explicit type expressions written after a colon (`:`) on va
 
 ## Mental model
 
-Annotations are **instructions to the type checker**, not metadata stored on values. Writing `let x: number = "hi"` is a compile-time error; writing `let x: number = 1 as any` may compile but leaves a string at runtime if the value is wrong.
+Annotations are **instructions to the type checker**, not metadata stored on values. Writing `let x: number = "hi"` is a compile-time error; writing `let x: number = 1 as any` may compile but leaves a string at runtime if the value is wrong. When you want to validate a value against a type while preserving its narrower inferred type, use the `satisfies` operator (TS 4.9+) instead of an annotation: `const config = {...} satisfies Config`.
 
 The compiler uses annotations to:
 

@@ -1,16 +1,15 @@
 ---
-id: typescript.default_generics
-type: concept
+type: Concept
 title: Default Generic Parameters
 description: Optional type arguments with fallback types when callers omit explicit instantiation.
 tags: [typescript, generics, defaults]
 prerequisites:
-  - typescript.generics
-  - typescript.generic_constraints
+  - concepts/generics
+  - concepts/generic_constraints
 related:
-  - typescript.utility_types
-  - typescript.conditional_types
-resource: https://www.typescriptlang.org/docs/handbook/2/generics.html
+  - concepts/utility_types
+  - concepts/conditional_types
+resource: "https://www.typescriptlang.org/docs/handbook/2/generics.html"
 timestamp: 2026-01-01
 ---
 
